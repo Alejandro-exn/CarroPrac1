@@ -4,6 +4,15 @@ public class Carro {
     private int potencia;
     private double velocidad;
 
+    public Carro(int potencia, double velocidad){
+        this.potencia=potencia;
+        this.velocidad= velocidad;
+    }
+
+    public Carro() {
+
+    }
+
     /*
     Métodos para ingresar información
     set()
